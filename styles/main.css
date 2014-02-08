@@ -86,7 +86,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 }
-#wrapper ul li {
+#wrapper ul li, #languages ul li {
 	font-family: courier-prime;
 	font-style: normal;
 	font-weight: 400;
@@ -99,6 +99,21 @@ footer {
 	font-family: courier-prime;
 	font-size: small;
 	text-align: center;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#languages {
+	max-width: 550px;
+	min-width: 480px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#languages p {
+	font-family: courier-prime;
+	font-size: large;
+	text-align: left;
 	font-style: normal;
 	font-weight: 400;
 }
