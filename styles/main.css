@@ -20,6 +20,14 @@ h1, h2 {
 	font-weight: 400;
 	font-family: black-ops-one;
 }
+h3 {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	font-style: normal;
+	font-weight: 400;
+	font-family: black-ops-one;
+}
 #mainnav ul {
 	list-style-type: none;
 	width: 100%;
@@ -88,6 +96,7 @@ body {
 }
 #wrapper ul li, #languages ul li {
 	font-family: courier-prime;
+	font-size: large;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -110,7 +119,14 @@ footer {
 	margin-left: auto;
 }
 
-#languages p {
+#otherskills {
+	max-width: 800px;
+	min-width: 480px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#languages p, #otherskills ul li {
 	font-family: courier-prime;
 	font-size: large;
 	text-align: left;
