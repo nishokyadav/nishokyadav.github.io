@@ -44,9 +44,9 @@ h1, h2 {
 	color: #00CCFF;
 	font-style: normal;
 	font-weight: 600;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	padding-top: 4px;
-	padding-bottom: 4px;
+	font-family: courier-prime;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 #first {
 	border-top-left-radius: 8px;
