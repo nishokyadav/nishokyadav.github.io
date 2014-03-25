@@ -2,7 +2,6 @@ $(document).ready(function(){
 
   // initialize
   $("#end_tour_button").hide();
-  $("#message_end").hide();
 
   // functions to handle styling
   var hide_welcome = function() { 
@@ -43,16 +42,12 @@ $(document).ready(function(){
   }
 
   var end_tour = function() {
-
-    $("#message_end").show();
-    setTimeout($("#welcome_pane").fadeTo(200,1),1000);
-    setTimeout($("#begin_tour_button").fadeTo(200,1),1000);
-    // $("#welcome_pane").fadeTo(200,1);
-    // $("#begin_tour_button").show();
+    $("#welcome_pane").fadeTo(200,1);
+    $("#begin_tour_button").show();
     $("#map_pane").hide();
     $("#interactive_mode_pane").hide();
 
-    setTimeout(show_welcome(),3000);
+    show_welcome();
 
     $("div").removeClass("current");
     $("#welcome_button").addClass("current");
