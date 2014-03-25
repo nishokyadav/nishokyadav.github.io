@@ -81,7 +81,7 @@ div#begin_tour_button:hover
 	background-color: #000099;
 }
 
-div#message
+div#message,div#message_end
 {
 	margin-top:60px;
 	margin-left:340px;
