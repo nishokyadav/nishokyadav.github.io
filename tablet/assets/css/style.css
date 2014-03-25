@@ -96,7 +96,7 @@ div#message
 
 .current 
 {
-	text-decoration: overline;
+	text-decoration: underline;
 
 }
 
