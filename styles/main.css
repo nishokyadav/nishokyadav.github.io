@@ -93,7 +93,7 @@ body {
 	text-align: justify;
 	font-style: normal;
 	font-weight: 400;
-	margin: 2px;
+	/*margin: 2px;*/
 }
 #wrapper ul li, #languages ul li {
 	font-family: courier-prime;
